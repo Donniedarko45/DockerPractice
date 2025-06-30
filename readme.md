@@ -56,3 +56,8 @@ CMD ["node", "dist/index.js"]
 
 This specifies the default command to run when the container starts. In this case, it will execute `node dist/index.js`, which starts your Node.js application. There can only be one `CMD` instruction in a Dockerfile. If you have multiple, only the last one will be executed.
 
+## Docker Volumes
+
+If we want persistent data like we exit our docker and we don't want to loose our data that's why we need volumes in docker
+
+![dockerVolumes](../Docker/assets/Screenshot%202025-06-30%20101938.png)
