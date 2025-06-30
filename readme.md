@@ -60,4 +60,4 @@ This specifies the default command to run when the container starts. In this cas
 
 If we want persistent data like we exit our docker and we don't want to loose our data that's why we need volumes in docker
 
-![dockerVolumes](../Docker/assets/Screenshot%202025-06-30%20101938.png)
+![dockerVolumes](assets/Screenshot 2025-06-30 101938.png)
